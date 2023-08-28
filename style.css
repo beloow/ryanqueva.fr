@@ -9,7 +9,7 @@
 
 header{
     color: whitesmoke;
-    padding-top: 1%;
+    padding-top: 2%;
     padding-bottom: 1%;
     align-items: center;
     text-align: center;
@@ -22,18 +22,15 @@ main{
 }
 
 footer{
-    color: #0F5959;
+    color: whitesmoke;
     padding-top: 1%;
     padding-bottom: 1%;
     align-items: center;
     text-align: center;
 }
 
-.title{
-    letter-spacing: 3px;
-}
-
 .container{
+    z-index: 1;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -41,6 +38,7 @@ footer{
 
     text-align: center;
     color: whitesmoke;
+    position: relative;
 }
 
 .items{
@@ -80,11 +78,97 @@ h1 {
   
 h1:hover {
     font-variation-settings: "wght" 582; 
-    letter-spacing: 1px;
+    letter-spacing: 3px;
 }
 
-img{
+.pp{
     max-width: 10%;
+    border-radius: 50%;
+
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+}
+
+.illustration{
+    max-width: 25%;
+    margin-left: 3%;
+
+    position: absolute;
+    z-index: 2;
+
     border-radius: 50%;
 }
 
+.floating{
+    animation: floating 5s ease-in-out 0s infinite;
+}
+
+.floating2{
+    animation: floating2 5s ease-in-out 1s infinite;
+}
+
+@keyframes floating{
+    0%{
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translateY(0px);
+    }
+
+    50% {
+        box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+        transform: translateY(-7px);
+    }
+
+    100% {
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translateY(0px);
+    }
+}
+
+@keyframes floating2{
+    0%{
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@media (max-width: 900px){
+
+    header{
+        padding-top: 5%;
+    }
+
+    main{
+        padding-top: 3%;
+        padding-bottom: 4%;
+    }
+
+    footer{
+        font-size: 13px;
+
+        padding-top: 10%;
+    }
+
+    .illustration {
+        visibility: hidden;
+    }
+
+    h1 {
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+
+    .pp{
+        max-width: 30%;
+    }
+
+    .items{
+        margin: 2%;
+        padding: 4%;
+    }
+}
