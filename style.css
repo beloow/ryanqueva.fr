@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 *{
-    background-color: #042326;
     font-family: 'Montserrat', sans-serif;
     padding: 0%;
     margin: 0%;
+}
+
+body{
+    background-color: #042326;
 }
 
 header{
@@ -18,7 +21,6 @@ header{
 main{
     padding-top: 1%;
     padding-bottom: 2%;
-    background-color: #042326;
 }
 
 footer{
@@ -27,6 +29,15 @@ footer{
     padding-bottom: 1%;
     align-items: center;
     text-align: center;
+}
+
+footer a{
+    color: whitesmoke;
+    transition: 500ms ease;
+}
+
+footer a:hover{
+    color: #107361;
 }
 
 .container{
@@ -96,6 +107,18 @@ h1:hover {
     z-index: 2;
 
     border-radius: 50%;
+
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,2));
+}
+
+.laptop{
+    max-width: 25%;
+    margin-left: 20%;
+
+    position: absolute;
+    z-index: 3;
+
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,2));
 }
 
 .floating{
@@ -104,6 +127,10 @@ h1:hover {
 
 .floating2{
     animation: floating2 5s ease-in-out 1s infinite;
+}
+
+.floating3{
+    animation: floating3 5s ease-in-out 0.5s infinite;
 }
 
 @keyframes floating{
@@ -125,14 +152,34 @@ h1:hover {
 
 @keyframes floating2{
     0%{
+        filter: drop-shadow(5px 5px 5px rgba(0,0,0,2));
         transform: translateY(0px);
     }
 
     50% {
+        filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.5));
         transform: translateY(-20px);
     }
 
     100% {
+        filter: drop-shadow(5px 5px 5px rgba(0,0,0,2));
+        transform: translateY(0px);
+    }
+}
+
+@keyframes floating3{
+    0%{      
+        filter: drop-shadow(5px 5px 5px rgba(0,0,0,2));
+        transform: translateY(0px);
+    }
+
+    50% {
+        filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.2));
+        transform: translateY(13px);
+    }
+
+    100% {
+        filter: drop-shadow(5px 5px 5px rgba(0,0,0,2));
         transform: translateY(0px);
     }
 }
@@ -155,6 +202,10 @@ h1:hover {
     }
 
     .illustration {
+        visibility: hidden;
+    }
+
+    .laptop{
         visibility: hidden;
     }
 
