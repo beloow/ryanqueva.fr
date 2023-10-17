@@ -104,6 +104,10 @@ section.projets{
     border: 1px solid #78d98f;
 }
 
+.projet-sous-items{
+    margin-bottom: 2%;
+}
+
 /* CSS SECTION CONTACT*/
 
 section.contact{
@@ -212,11 +216,6 @@ footer{
     padding-bottom: 1%;
     align-items: center;
     text-align: center;
-}
-
-footer a{
-    color: #78d98f;
-    transition: 500ms ease;
 }
 
 footer a:hover{
@@ -419,14 +418,6 @@ ul li:hover a::before {
         padding-top: 10%;
     }
 
-    .illustration {
-        visibility: hidden;
-    }
-
-    .laptop{
-        visibility: hidden;
-    }
-
     h1 {
         font-size: 30px;
         letter-spacing: 2px;
@@ -436,30 +427,5 @@ ul li:hover a::before {
         max-width: 30%;
     }
 
-    .items{
-        margin: 2%;
-        padding: 4%;
-    }
 
-    /* gestion drop menu */
-
-    .navbar .links,
-    .navbar .action-btn{
-      display: none;
-    }
-  
-    .navbar .toggle-btn{
-      display: block;
-    }
-  
-    .dropdown-menu{
-      display: block;
-    }
-}
-
-@media(max-width: 576px){
-    .dropdown-menu{
-      left: 2rem;
-      width: unset;
-    }
 }
