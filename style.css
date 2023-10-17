@@ -4,6 +4,7 @@
     font-family: 'Montserrat', sans-serif;
     padding: 0%;
     margin: 0%;
+    box-sizing: border-box;
 }
 
 body{
@@ -16,6 +17,7 @@ header{
     padding-bottom: 1%;
     align-items: center;
     text-align: center;
+    position: relative;
 }
 
 main{
@@ -52,7 +54,7 @@ footer a:hover{
     position: relative;
 }
 
-.items{
+/* .items{
     text-align: center;
 
     margin: 1%;
@@ -70,10 +72,12 @@ footer a:hover{
 
     font-size: 17px;
     letter-spacing: 2px;
-}
+} */
 
 a{
     text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
 }
 
 h1 {
@@ -132,6 +136,84 @@ h1:hover {
 .floating3{
     animation: floating3 5s ease-in-out 0.5s infinite;
 }
+
+
+/* //// Menu /// */
+
+  .navbar{
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar .links{
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .action-btn{
+    background-color: orange;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+  }
+  
+  .action-btn:hover{
+    scale: 1.05;
+    color: #fff;
+  }
+  
+  .action-btn:active{
+    scale: 0.95;
+  }
+
+  li{
+    list-style: none;
+  }
+
+
+  /* DROP MENU*/
+  
+  .dropdown-menu{
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    height: 0;
+    width: 300px;
+    background: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .dropdown-menu.open{
+    height: 240px;
+  }
+  
+  .dropdown-menu li {
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .dropdown-menu .action-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 
 @keyframes floating{
     0%{
@@ -222,4 +304,27 @@ h1:hover {
         margin: 2%;
         padding: 4%;
     }
+
+    /* gestion drop menu */
+
+    .navbar .links,
+    .navbar .action-btn{
+      display: none;
+    }
+  
+    .navbar .toggle-btn{
+      display: block;
+    }
+  
+    .dropdown-menu{
+      display: block;
+    }
 }
+
+@media(max-width: 576px){
+    .dropdown-menu{
+      left: 2rem;
+      width: unset;
+    }
+  
+  }
