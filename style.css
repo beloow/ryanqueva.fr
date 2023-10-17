@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-/* CSS HEADER */
+/* ////////////////////////// CSS HEADER //////////////////////////*/
 header{
     padding-top: 2%;
     padding-bottom: 1%;
@@ -16,10 +16,12 @@ header{
     position: relative;
 }
 
-/* CSS MAIN */
+/* ////////////////////////// CSS MAIN ////////////////////////// */
 main{
     padding-top: 1%;
     padding-bottom: 2%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 a{
@@ -62,6 +64,16 @@ h2:hover {
     letter-spacing: 3px;
 }
 
+/* sous sous titre de la page */
+
+h3 {
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin-bottom: 3%;
+    text-align: center;
+    text-decoration: underline #78d98f;
+}
+
 /* Photo de profile */
 
 .pp{
@@ -71,17 +83,30 @@ h2:hover {
     box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
 }
 
-/* Effet Photo de profile */
-
-.floating{
-    animation: floating 5s ease-in-out 0s infinite;
-}
-
 /* CSS SECTION A PROPOS */
+
+.apropos{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 
 
 
 /* CSS SECTION PROJETS */
+
+.container-projets{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.projet-items{
+    margin: 2%;
+    padding: 3%;
+    border: 1px solid #78d98f;
+}
 
 /* CSS SECTION CONTACT*/
 
@@ -178,33 +203,8 @@ button {
     left: 80%;
     animation: move 3s infinite;
   }
-  
-  @keyframes move {
-    0% {
-      transform: translateX(0);
-    }
-    50% {
-      transform: translateX(5px);
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
-  
-  @keyframes box {
-    0% {
-      box-shadow: #27272c;
-    }
-    50% {
-      box-shadow: 0 0 25px var(--clr);
-    }
-    100% {
-      box-shadow: #27272c;
-    }
-  }
 
-
-/* CSS FOOTER */
+/* ////////////////////////// CSS FOOTER ////////////////////////// */
 
 footer{
     color: #2a2a2a;
@@ -224,7 +224,7 @@ footer a:hover{
     animation: fadeIn 1.5s;
 }
 
-/* BTN SOCIAL MEDIA */
+/* BOUTONS SOCIAL MEDIA */
 
 ul {
     position: relative;
@@ -260,6 +260,7 @@ ul li:nth-child(1) a::before {
       #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,
       #bc1888 100%);
     -webkit-background-clip: text;
+    background-clip: text;
      -webkit-text-fill-color: transparent;
     border-bottom: 4px solid #dc2743;
 }
@@ -277,6 +278,89 @@ ul li:hover a::before {
     height: 100%;
 }
 
+/* ////////////////////////// GALERIE ////////////////////////// */
+
+/* Effets */
+
+.floating{
+    animation: floating 5s ease-in-out 0s infinite;
+}
+.ease{
+    transition: 500ms ease;
+}
+.ease-out{
+    transition: 500ms ease-out;
+}
+.ease-in{
+    transition: 500ms ease-in;
+}
+.ease-in-out{
+    transition: 500ms ease-in-out;
+}
+
+/* Text align */
+
+.align-left{
+    text-align: left;
+}
+.align-right{
+    text-align: right;
+}
+.align-center{
+    text-align: center;
+}
+.align-justify{
+    text-align: justify;
+}
+
+ /* Colors : */
+ .color1{
+    color:#a0e4b0;
+ }
+ .color2{
+    color:#111111;
+ }
+ .color3{
+    color:#c8efd1;
+ }
+ .color4{
+    color:#78d98f;
+ }
+ .color5{
+    color:#2a2a2a;
+ }
+ .color6{
+    color:#000000;
+ }
+ .color-whitesmoke{
+    color: whitesmoke;
+ }
+
+  /* BG Colors : */
+  .bg-color1{
+    background-color:#a0e4b0;
+ }
+ .bg-color2{
+    background-color:#111111;
+ }
+ .bg-color3{
+    background-color:#c8efd1;
+ }
+ .bg-color4{
+    background-color:#78d98f;
+ }
+ .bg-color5{
+    background-color:#2a2a2a;
+ }
+ .bg-color6{
+    background-color:#000000;
+ }
+ .bg-color-whitesmoke{
+    background-color: whitesmoke;
+ }
+
+/* ////////////////////////// Keyframes & media ////////////////////////// */
+
 @keyframes floating{
     0%{
         box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
@@ -293,6 +377,30 @@ ul li:hover a::before {
         transform: translateY(0px);
     }
 }
+
+@keyframes move {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes box {
+    0% {
+      box-shadow: #27272c;
+    }
+    50% {
+      box-shadow: 0 0 25px var(--clr);
+    }
+    100% {
+      box-shadow: #27272c;
+    }
+  }
 
 @media (max-width: 900px){
 
@@ -355,49 +463,3 @@ ul li:hover a::before {
       width: unset;
     }
 }
-
- /* Colors : */
- .color1{
-    color:#78d98f;
- }
- .color2{
-    color:#111111;
- }
- .color3{
-    color:#c8efd1;
- }
- .color4{
-    color:#78d98f;
- }
- .color5{
-    color:#2a2a2a;
- }
- .color6{
-    color:#000000;
- }
- .color-whitesmoke{
-    color: whitesmoke;
- }
-
-  /* BG Colors : */
-  .bg-color1{
-    background-color:#78d98f;
- }
- .bg-color2{
-    background-color:#111111;
- }
- .bg-color3{
-    background-color:#c8efd1;
- }
- .bg-color4{
-    background-color:#78d98f;
- }
- .bg-color5{
-    background-color:#2a2a2a;
- }
- .bg-color6{
-    background-color:#000000;
- }
- .bg-color-whitesmoke{
-    background-color: whitesmoke;
- }
