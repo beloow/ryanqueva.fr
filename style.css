@@ -47,7 +47,6 @@ h1:hover {
 }
 
 /* Sous-titre de la page */
-
 h2 {
     font-size: 50px;
     letter-spacing: -3px;
@@ -65,7 +64,6 @@ h2:hover {
 }
 
 /* sous sous titre de la page */
-
 h3 {
     font-size: 25px;
     letter-spacing: 3px;
@@ -75,7 +73,6 @@ h3 {
 }
 
 /* Photo de profile */
-
 .pp{
     max-width: 10%;
     border-radius: 50%;
@@ -85,14 +82,13 @@ h3 {
 
 /* CSS SECTION A PROPOS */
 
-.apropos{
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-
 
 
 /* CSS SECTION PROJETS */
+
+section.projets{
+    margin-top: 3%;
+}
 
 .container-projets{
     margin-top: 2%;
@@ -109,6 +105,10 @@ h3 {
 }
 
 /* CSS SECTION CONTACT*/
+
+section.contact{
+    margin-top: 3%;
+}
 
 .container-info-btn {
     margin-top: 2%;
