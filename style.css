@@ -429,7 +429,6 @@ ul li:hover a::before {
     100% {margin-top: 0;}
 }
 @media (max-width: 900px){
-
     header{
         padding-top: 5%;
     }
@@ -442,13 +441,6 @@ ul li:hover a::before {
     .pp{
         max-width: 30%;
     }
-    /* a{
-        text-decoration: none;
-        color: #fff;
-        font-size: 1rem;
-    } */
-    
-    /* Titre de la page */
     h1 {
         font-size: 30px;
         letter-spacing: 2px;
@@ -459,7 +451,6 @@ ul li:hover a::before {
     .container{
         display: none;
     }
-    
     /* Sous-titre de la page */
     h2 {
         font-size: 20px;
@@ -472,7 +463,6 @@ ul li:hover a::before {
         font-variation-settings: "wght" 582; 
         letter-spacing: 3px;
     }
-    
     /* sous sous titre de la page */
     h3 {
         font-size: 15px;
@@ -480,7 +470,6 @@ ul li:hover a::before {
         margin-bottom: 2%;
         text-align: center;
     }
-
     /* Conteneurs */
     .container-projets{
         margin-top: 1%;
@@ -496,7 +485,6 @@ ul li:hover a::before {
         flex-direction: column;
         align-items: center;
     }
-
     /* Boutons information pro */
     button {
         position: relative;
