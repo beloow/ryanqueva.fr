@@ -8,7 +8,6 @@
     box-sizing: border-box;
     list-style-type: none;
 }
-
 strong{
 	font-weight:normal;
 }
@@ -23,14 +22,12 @@ header{
 }
 
 /* Animation */
-
 .animate{
     display: flex;
     justify-content: center;
     flex-direction: row;
     align-items: center;
 }
-
 .container {
     color: whitesmoke;
     font-size: 2rem;
@@ -39,20 +36,17 @@ header{
     align-items: center;
     justify-content: center;
 }
-  
 .animation {
     height:40px;
     overflow:hidden;
     margin-left: 1rem;
 }
-  
 .animation > div > div {
     padding: 0.25rem 0.75rem;
     height:2.81rem;
     margin-bottom: 3rem;
     display:inline-block;
 }
-  
 .animation div:first-child {
     animation: text-animation 8s infinite;
 }
@@ -64,7 +58,6 @@ main{
     padding-left: 25%;
     padding-right: 25%;
 }
-
 a{
     text-decoration: none;
     color: #fff;
@@ -81,7 +74,6 @@ h1 {
     outline: none;
     text-align: center;
 }
-  
 h1:hover {
     font-variation-settings: "wght" 582; 
     letter-spacing: 3px;
@@ -97,7 +89,6 @@ h2 {
     outline: none;
     text-align: center;
 }
-  
 h2:hover {
     font-variation-settings: "wght" 582; 
     letter-spacing: 3px;
@@ -124,11 +115,9 @@ h3 {
 
 
 /* CSS SECTION PROJETS */
-
 section.projets{
     margin-top: 3%;
 }
-
 .container-projets{
     margin-top: 2%;
     display: flex;
@@ -136,29 +125,24 @@ section.projets{
     flex-direction: row;
     align-items: center;
 }
-
 .projet-items{
     margin: 2%;
     padding: 2%;
     border: 1px solid #78d98f;
     border-radius: 30px;
 }
-
 .projet-items img{
     width: 100%;
     height: 100%;
 }
-
 .projet-sous-items{
     margin-bottom: 2%;
 }
 
 /* CSS SECTION CONTACT*/
-
 section.contact{
     margin-top: 3%;
 }
-
 .container-info-btn {
     margin-top: 2%;
     display: flex;
@@ -166,7 +150,6 @@ section.contact{
     flex-direction: row;
     align-items: center;
 }
-
 .container-nav-social-media {
     margin-top: 2%;
     display: flex;
@@ -176,7 +159,6 @@ section.contact{
 }
 
 /* BTN CONTACT */
-
 button {
     position: relative;
     background: #444;
@@ -189,7 +171,7 @@ button {
     padding: 1rem 3rem;
     margin: 5%;
     transition: 0.2s;
-  }
+}
 button:hover {
     letter-spacing: 0.2rem;
     padding: 1.1rem 3.1rem;
@@ -247,7 +229,6 @@ button:hover i::after {
 }
 
 /* ////////////////////////// CSS FOOTER ////////////////////////// */
-
 footer{
     color: #2a2a2a;
     padding-top: 1%;
@@ -255,14 +236,12 @@ footer{
     align-items: center;
     text-align: center;
 }
-
 footer a:hover{
     color: #c8efd1;
     animation: fadeIn 1.5s;
 }
 
 /* BOUTONS SOCIAL MEDIA */
-
 ul {
     position: relative;
     display: flex;
