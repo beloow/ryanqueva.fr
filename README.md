@@ -37,16 +37,16 @@
   <h3 align="center">Ryanqueva.fr</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    My personnal website 
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://beloow.github.io/ryanqueva.fr/">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/beloow/ryanqueva.fr/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/beloow/ryanqueva.fr/issues">Request Feature</a>
   </p>
 </div>
 
