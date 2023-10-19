@@ -97,6 +97,7 @@ En résumé, un portfolio en ligne est un outil polyvalent qui peut vous aider �
 * [![Laravel][Laravel.com]][Laravel-url] -->
 * ![HTML5][html5.com]
 * ![CSS3][css3.com]
+* ![JavaScript][javascript.com]
 * [![GitHub][github.com]][github-url]
 * [![Figma][figma.com]][figma-url]
 <!-- * [![Bootstrap][Bootstrap.com]][Bootstrap-url] -->
@@ -185,3 +186,4 @@ Use this space to list resources you find helpful and would like to give credit 
 [github-url]: https://www.github.com/
 [html5.com]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
 [css3.com]: https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white
+[javascript.com]: https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
