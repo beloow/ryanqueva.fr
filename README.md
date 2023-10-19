@@ -18,12 +18,12 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-<!-- [![Contributors][contributors-shield]][contributors-url]
+[![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url] -->
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -81,9 +81,7 @@ Il me permet de :
 * Visibilité : Un portfolio en ligne donne une présence sur le web, ce qui peut  rendre plus visible pour les employeurs potentiels, les clients, les collaborateurs, ou même les personnes qui partagent un intérêt pour votre travail.
 * Éducation et développement personnel : La création d'un portfolio en ligne me pousse à réfléchir sur mon parcours professionnel, à identifier mes forces et faiblesses, et à définir mes objectifs futurs :smile:
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+En résumé, un portfolio en ligne est un outil polyvalent qui peut vous aider à promouvoir votre travail, à développer votre carrière, à établir votre présence en ligne et à connecter avec un public plus large. Il est devenu essentiel dans de nombreux domaines professionnels pour montrer vos réalisations et compétences de manière efficace et professionnelle.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,14 +91,15 @@ Use the `BLANK_README.md` to get started.
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [![HTML][Next.js]][Next-url]
+<!-- * [![HTML][Next.js]][Next-url]
 * [![CSS][React.js]][React-url]
 * [![Vue][Vue.js]][Vue-url]
 * [![Angular][Angular.io]][Angular-url]
 * [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
+* [![Laravel][Laravel.com]][Laravel-url] -->
+* [![HTML]][html-url]
+* [![CSS]][css-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,8 +111,9 @@ This section should list any major frameworks/libraries used to bootstrap your p
 - [x] Presenter quelques projets
 - [x] Ajouter un README & Github Pages
 - [ ] Ajouter les compétenses / leurs niveaux de maîtrise
-- [ ] Multi-language Support
-    - [ ] Anglais
+<!-- - [ ] Multi-language Support
+    - [ ] Anglais -->
+- [ ] Modifier la liste des projets statique en liste des projets defilante
 
 See the [open issues](https://github.com/beloow/ryanqueva.fr/issues) for a full list of proposed features (and known issues).
 
