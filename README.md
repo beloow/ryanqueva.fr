@@ -109,6 +109,7 @@ En résumé, un portfolio en ligne est un outil polyvalent qui peut vous aider �
 - [x] Renouveler le style global
 - [x] Description personnel
 - [x] Presenter quelques projets
+- [x] Ajouter les butons de contact pro & reseaux sociaux
 - [x] Ajouter un README & Github Pages
 - [ ] Ajouter les compétenses / leurs niveaux de maîtrise
 - [ ] Modifier la liste des projets statique en liste des projets defilante
