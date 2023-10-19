@@ -111,9 +111,9 @@ This section should list any major frameworks/libraries used to bootstrap your p
 - [x] Presenter quelques projets
 - [x] Ajouter un README & Github Pages
 - [ ] Ajouter les compétenses / leurs niveaux de maîtrise
+- [ ] Modifier la liste des projets statique en liste des projets defilante
 <!-- - [ ] Multi-language Support
     - [ ] Anglais -->
-- [ ] Modifier la liste des projets statique en liste des projets defilante
 
 See the [open issues](https://github.com/beloow/ryanqueva.fr/issues) for a full list of proposed features (and known issues).
 
