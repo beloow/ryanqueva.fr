@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&display=swap');
-
 *{
     font-family: 'Montserrat', sans-serif;
     padding: 0%;
@@ -11,7 +10,6 @@
 strong{
 	font-weight:normal;
 }
-
 /* ////////////////////////// CSS HEADER //////////////////////////*/
 header{
     padding-top: 2%;
@@ -20,7 +18,6 @@ header{
     text-align: center;
     position: relative;
 }
-
 /* Animation */
 .animate{
     display: flex;
@@ -50,7 +47,6 @@ header{
 .animation div:first-child {
     animation: text-animation 8s infinite;
 }
-
 /* ////////////////////////// CSS MAIN ////////////////////////// */
 main{
     padding-top: 1%;
@@ -63,7 +59,6 @@ a{
     color: #fff;
     font-size: 1rem;
 }
-
 /* Titre de la page */
 h1 {
     font-size: 90px;
@@ -78,7 +73,6 @@ h1:hover {
     font-variation-settings: "wght" 582; 
     letter-spacing: 3px;
 }
-
 /* Sous-titre de la page */
 h2 {
     font-size: 50px;
@@ -93,7 +87,6 @@ h2:hover {
     font-variation-settings: "wght" 582; 
     letter-spacing: 3px;
 }
-
 /* sous sous titre de la page */
 h3 {
     font-size: 25px;
@@ -101,7 +94,6 @@ h3 {
     margin-bottom: 3%;
     text-align: center;
 }
-
 /* Photo de profile */
 .pp{
     max-width: 10%;
@@ -109,11 +101,8 @@ h3 {
 
     box-shadow: 0 5px 15px 0px #78d98f;
 }
-
 /* CSS SECTION A PROPOS */
-
-
-
+/* /// */
 /* CSS SECTION PROJETS */
 section.projets{
     margin-top: 3%;
@@ -157,9 +146,8 @@ section.contact{
     flex-direction: row;
     align-items: center;
 }
-
 /* BTN CONTACT */
-button {
+.contact-btn {
     position: relative;
     background: #444;
     color: #fff;
@@ -172,7 +160,7 @@ button {
     margin: 5%;
     transition: 0.2s;
 }
-button:hover {
+.contact-btn:hover {
     letter-spacing: 0.2rem;
     padding: 1.1rem 3.1rem;
     background: var(--clr);
@@ -180,22 +168,22 @@ button:hover {
     /* box-shadow: 0 0 35px var(--clr); */
     animation: box 3s infinite;
 }
-button::before {
+.contact-btn::before {
     content: "";
     position: absolute;
     inset: 2px;
     background: #272822;
 }
-button span {
+.contact-btn span {
     position: relative;
     z-index: 1;
 }
-button i {
+.contact-btn i {
     position: absolute;
     inset: 0;
     display: block;
 }
-button i::before {
+.contact-btn i::before {
     content: "";
     position: absolute;
     width: 10px;
@@ -206,12 +194,12 @@ button i::before {
     background: #272822;
     transition: 0.2s;
 }
-button:hover i::before {
+.contact-btn:hover i::before {
     width: 15px;
     left: 20%;
     animation: move 3s infinite;
 }
-button i::after {
+.contact-btn i::after {
     content: "";
     position: absolute;
     width: 10px;
@@ -222,15 +210,13 @@ button i::after {
     background: #272822;
     transition: 0.2s;
 }
-button:hover i::after {
+.contact-btn:hover i::after {
     width: 15px;
     left: 80%;
     animation: move 3s infinite;
 }
-
 /* ////////////////////////// CSS FOOTER ////////////////////////// */
 footer{
-    color: #2a2a2a;
     padding-top: 1%;
     padding-bottom: 1%;
     align-items: center;
@@ -257,7 +243,7 @@ ul li a {
 }
 ul li a .fa-brands {
     font-size: 3em;
-    color: #222;
+    color: #2a2a2a;
 }
 ul li a::before {
     font-family: "FontAwesome";
@@ -292,13 +278,11 @@ ul li:nth-child(3) a::before {
 ul li:hover a::before {
     height: 100%;
 }
-
 /* ////////////////////////// GALERIE ////////////////////////// */
 /* text decoration */
 .underline4{
     text-decoration: underline #78d98f;
 }
-
 /* Effect */
 .floating{
     animation: floating 5s ease-in-out 0s infinite;
@@ -315,7 +299,6 @@ ul li:hover a::before {
 .ease-in-out{
     transition: 500ms ease-in-out;
 }
-
 /* Text align */
 .align-left{
     text-align: left;
@@ -329,55 +312,55 @@ ul li:hover a::before {
 .align-justify{
     text-align: justify;
 }
-
- /* Colors */
- .color1{
+/* Colors */
+.color1{
     color:#a0e4b0;
- }
- .color2{
+}
+.color2{
     color:#111111;
- }
- .color3{
+}
+.color3{
     color:#c8efd1;
- }
- .color4{
+}
+.color4{
     color:#78d98f;
- }
- .color5{
+}
+.color5{
     color:#2a2a2a;
- }
- .color6{
+}
+.color6{
     color:#000000;
- }
- .color-whitesmoke{
+}
+.color-whitesmoke{
     color: whitesmoke;
- }
-
-  /* BG Colors : */
-  .bg-color1{
+}
+/* BG Colors : */
+.bg-color1{
     background-color:#a0e4b0;
- }
- .bg-color2{
+}
+.bg-color-primary{
     background-color:#111111;
- }
- .bg-color3{
+}
+.bg-color3{
     background-color:#c8efd1;
- }
- .bg-color4{
+}
+.bg-color4{
     background-color:#78d98f;
- }
- .bg-color5{
+}
+.bg-color-secondary{
     background-color:#2a2a2a;
- }
- .bg-color6{
+}
+.bg-color6{
     background-color:#000000;
- }
- .bg-color-whitesmoke{
+}
+.bg-color-whitesmoke{
     background-color: whitesmoke;
- }
-
+}
+/* BG Colors gradient : */
+.gradient-bg-color-primary-secondary{
+    background: linear-gradient(#111111, #2a2a2a);
+}
 /* ////////////////////////// Keyframes & media ////////////////////////// */
-
 @keyframes floating{
     0%{
         box-shadow: 0 5px 15px 0px #78d98f;
@@ -438,22 +421,16 @@ ul li:hover a::before {
         padding-left: 10%;
         padding-right: 10%;
     }
-    .pp{
-        max-width: 30%;
-    }
     h1 {
-        font-size: 30px;
+        font-size: 35px;
         letter-spacing: 2px;
         margin-bottom: 0.8rem;
         outline: none;
         text-align: center;
     }
-    .container{
-        display: none;
-    }
     /* Sous-titre de la page */
     h2 {
-        font-size: 20px;
+        font-size: 25px;
         letter-spacing: 2px;
         margin-bottom: 0.8rem;
         outline: none;
@@ -465,12 +442,18 @@ ul li:hover a::before {
     }
     /* sous sous titre de la page */
     h3 {
-        font-size: 15px;
+        font-size: 20px;
         letter-spacing: 2px;
         margin-bottom: 2%;
         text-align: center;
     }
+    .pp{
+        max-width: 30%;
+    }
     /* Conteneurs */
+    .container{
+        display: none;
+    }
     .container-projets{
         margin-top: 1%;
         display: flex;
@@ -484,6 +467,10 @@ ul li:hover a::before {
         justify-content: center;
         flex-direction: column;
         align-items: center;
+    }
+    .container-nav-social-media{
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
     /* Boutons information pro */
     button {

@@ -113,6 +113,7 @@ En résumé, un portfolio en ligne est un outil polyvalent qui peut vous aider �
 - [x] Ajouter un README & Github Pages
 - [ ] Ajouter les compétences / leurs niveaux de maîtrise
 - [ ] Ajouter un bouton "back to top"
+- [ ] Ajouter une section "send me a message" avec un formulaire de contact
 - [ ] Modifier la liste des projets statiques en liste des projets défilante
 
 See the [open issues](https://github.com/beloow/ryanqueva.fr/issues) for a full list of proposed features (and known issues).
