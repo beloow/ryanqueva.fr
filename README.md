@@ -89,19 +89,17 @@ En résumé, un portfolio en ligne est un outil polyvalent qui peut vous aider �
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
 <!-- * [![HTML][Next.js]][Next-url]
 * [![CSS][React.js]][React-url]
 * [![Vue][Vue.js]][Vue-url]
 * [![Angular][Angular.io]][Angular-url]
 * [![Svelte][Svelte.dev]][Svelte-url]
 * [![Laravel][Laravel.com]][Laravel-url] -->
-* [![HTML5][html5.com]]
-* [![CSS3][css3.com]]
+* ![HTML5][html5.com]
+* ![CSS3][css3.com]
 * [![GitHub][github.com]][github-url]
 * [![Figma][figma.com]][figma-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+<!-- * [![Bootstrap][Bootstrap.com]][Bootstrap-url] -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -184,10 +182,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [JQuery-url]: https://jquery.com 
 [figma.com]: https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white
 [figma-url]: https://www.figma.com/
-
 [github.com]: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white
 [github-url]: https://www.github.com/
-
 [html5.com]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
-
 [css3.com]: https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white
