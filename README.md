@@ -104,8 +104,8 @@ Use the `BLANK_README.md` to get started.
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
+* [![HTML][Next.js]][Next-url]
+* [![CSS][React.js]][React-url]
 * [![Vue][Vue.js]][Vue-url]
 * [![Angular][Angular.io]][Angular-url]
 * [![Svelte][Svelte.dev]][Svelte-url]
@@ -118,13 +118,13 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- ROADMAP -->
 ## Roadmap
 
+- [x] Renouveler le style global
 - [x] Description personnel
 - [x] Presenter quelques projets
+- [x] Ajouter un README & Github Pages
 - [ ] Ajouter les compétenses / leurs niveaux de maîtrise
-- [ ] Add "components" document to easily copy & paste sections of the readme
 - [ ] Multi-language Support
     - [ ] Anglais
-    - [ ] Spanish
 
 See the [open issues](https://github.com/beloow/ryanqueva.fr/issues) for a full list of proposed features (and known issues).
 
