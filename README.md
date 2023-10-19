@@ -97,6 +97,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [![Angular][Angular.io]][Angular-url]
 * [![Svelte][Svelte.dev]][Svelte-url]
 * [![Laravel][Laravel.com]][Laravel-url] -->
+* [Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 * [![Html][Html.com]][Bootstrap-url]
 * [![Css][Css.com]][Bootstrap-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
