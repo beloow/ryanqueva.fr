@@ -91,19 +91,25 @@ h2:hover {
 h3 {
     font-size: 25px;
     letter-spacing: 3px;
-    margin-bottom: 3%;
+    margin-bottom: 5%;
     text-align: center;
+}
+h4 {
+    font-size: 20px;
+    letter-spacing: 3px;
 }
 /* Photo de profile */
 .pp{
     max-width: 10%;
     border-radius: 50%;
-
     box-shadow: 0 5px 15px 0px #78d98f;
 }
-/* CSS SECTION A PROPOS */
+section{
+    margin-bottom: 3%;
+}
+/* ////////////////////////// CSS SECTION A PROPOS ////////////////////////// */
 /* /// */
-/* CSS SECTION PROJETS */
+/* ////////////////////////// CSS SECTION PROJETS ////////////////////////// */
 section.projets{
     margin-top: 3%;
 }
@@ -128,7 +134,7 @@ section.projets{
     margin-bottom: 2%;
 }
 
-/* CSS SECTION CONTACT*/
+/* ////////////////////////// CSS SECTION CONTACT ////////////////////////// */
 section.contact{
     margin-top: 3%;
 }
