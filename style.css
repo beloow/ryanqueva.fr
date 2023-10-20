@@ -416,6 +416,7 @@ ul li:hover a::before {
     90% {margin-top: 0;}
     100% {margin-top: 0;}
 }
+/* MEDIA 900PX */
 @media (max-width: 900px){
     header{
         padding-top: 5%;
