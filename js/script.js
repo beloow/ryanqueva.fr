@@ -73,9 +73,14 @@ function sendEmail() {
     const bodyMessage = `
 
     Name: ${fullName.value}<br> 
+    <br> 
     Email: ${email.value} <br> 
+    <br> 
     Téléphone : ${phone.value} <br> 
-    Message : ${mess.value} <br>
+    <br> 
+    Message : <br>
+    <br> 
+    ${mess.value}
 
     `;
 
