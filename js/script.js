@@ -54,9 +54,9 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 /*==================== typed js ====================*/
 const typed = new Typed('.multiple-text', {
-    strings: ['Web Developer', 'Student', 'Network Technicians'],
+    strings: ['Web Developer', 'Student', 'Network Technician'],
     typeSpeed: 100,
-    backSpeed: 100,
+    backSpeed: 90,
     backDelay: 500,
     loop: true
 });
@@ -85,22 +85,22 @@ function sendEmail() {
     `;
 
     Email.send({
-        SecureToken : "01714b00-e16d-4334-ba5f-34a71812d021",
-        To : 'contact@ryanqueva.fr',
-        From : "contact@ryanqueva.fr",
-        Subject : subject.value,
-        Body : bodyMessage
+        SecureToken: "01714b00-e16d-4334-ba5f-34a71812d021",
+        To: 'contact@ryanqueva.fr',
+        From: "contact@ryanqueva.fr",
+        Subject: subject.value,
+        Body: bodyMessage
     }).then(
-      message => {
-        if (message == "OK") {
-            Swal.fire({
-                title: "Good job!",
-                text: "Email send !",
-                icon: "success",
-                showCloseButton: true
-              });
+        message => {
+            if (message == "OK") {
+                Swal.fire({
+                    title: "Good job!",
+                    text: "Email send !",
+                    icon: "success",
+                    showCloseButton: true
+                });
+            }
         }
-      }
     );
 }
 
@@ -136,7 +136,7 @@ function checkEmail() {
 
     if (!email.value.match(emailRegex)) {
         email.classList.add("error");
-    }else {
+    } else {
         email.classList.remove("error");
     }
 }
@@ -155,49 +155,37 @@ form.addEventListener("submit", (e) => {
     checkInputs();
 
     if (
-    !fullName.classList.contains("error") && 
-    !email.classList.contains("error") && 
-    !phone.classList.contains("error") && 
-    !subject.classList.contains("error") && 
-    !mess.classList.contains("error")) {
+            !fullName.classList.contains("error") &&
+            !email.classList.contains("error") &&
+            !phone.classList.contains("error") &&
+            !subject.classList.contains("error") &&
+            !mess.classList.contains("error")
+        ){
+
         sendEmail();
-        
+
         form.reset();
         return false;
+
     }
 });
 
 /*==================== onload dev ====================*/
 
 window.onload = () => {
-    //   const Toast = Swal.mixin({
-    //     toast: true,
-    //     width: '32em',
-    //     position: "bottom-end",
-    //     showConfirmButton: false,
-    //     timer: 5000,
-    //     timerProgressBar: true,
-    //     didOpen: (toast) => {
-    //       toast.onmouseenter = Swal.stopTimer;
-    //       toast.onmouseleave = Swal.resumeTimer;
-    //     }
-    //   });
-    //   Toast.fire({
-    //     icon: "info",
-    //     title: "Site web en Développement ! Un conseil ?",
-    //   });
 
+    Swal.fire({
 
-      Swal.fire({
         icon: "info",
         title: "Site web en Développement ! Un conseil ?",
         toast: true,
         width: '32em',
-        
+
         position: "top",
         showConfirmButton: false,
         timer: 5000,
         timerProgressBar: true
+        
     });
 }
 

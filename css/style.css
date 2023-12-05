@@ -11,11 +11,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-strong {
-    font-weight: normal;
-    font-style: normal;
-}
-
 :root {
     --bg-color: #1f242d;
     --second-bg-color: #323946;
@@ -23,6 +18,11 @@ strong {
     /* --main-color: #0ef; */
     --main-color: #A0E5AF;
     --error-color: #d93025;
+}
+
+strong {
+    font-weight: normal;
+    font-style: normal;
 }
 
 html {
