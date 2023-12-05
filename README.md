@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://ryanqueva.fr/">
-    <img src="resources/img/icon.png" alt="Logo" width="80" height="80">
+    <img src="assets/img/icon.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Ryanqueva.fr</h3>
