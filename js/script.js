@@ -57,7 +57,7 @@ const typed = new Typed('.multiple-text', {
     strings: ['Web Developer', 'Student', 'Network Technician'],
     typeSpeed: 100,
     backSpeed: 90,
-    backDelay: 500,
+    backDelay: 450,
     loop: true
 });
 
@@ -177,14 +177,16 @@ window.onload = () => {
     Swal.fire({
 
         icon: "info",
-        title: "Tu cherche un alternant motivée ?! Contact moi !",
-        toast: true,
-        width: '34em',
+        title: "Tu cherches un alternant motivée ?! Contact moi !",
+        toast: false,
+        backdrop: false,
 
         position: "top",
         showConfirmButton: false,
         timer: 5000,
-        timerProgressBar: true
+        timerProgressBar: true,
+
+        footer: '<a href="#contact" style="color: #FFF; background-color: #1f242d; border-radius:10%; padding: 1rem;">Me contacter !</a>'
         
     });
 }
