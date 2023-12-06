@@ -177,9 +177,9 @@ window.onload = () => {
     Swal.fire({
 
         icon: "info",
-        title: "Site web en Développement ! Un conseil ?",
+        title: "Tu cherche un alternant motivée ?! Contact moi !",
         toast: true,
-        width: '32em',
+        width: '34em',
 
         position: "top",
         showConfirmButton: false,
