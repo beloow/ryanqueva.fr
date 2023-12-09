@@ -61,7 +61,7 @@ const typed = new Typed('.multiple-text', {
     loop: true
 });
 
-/*==================== form ====================*/
+/*==================== contact form ====================*/
 const form = document.querySelector('form');
 const fullName = document.getElementById("name");
 const email = document.getElementById("email");
