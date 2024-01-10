@@ -172,22 +172,22 @@ form.addEventListener("submit", (e) => {
 
 /*==================== onload dev ====================*/
 
-// window.onload = () => {
+window.onload = () => {
 
-//     Swal.fire({
+    Swal.fire({
 
-//         icon: "info",
-//         title: "Tu cherches un alternant motivée ?! Contact moi !",
-//         toast: false,
-//         backdrop: false,
+        icon: "info",
+        title: "Besoin d'un site web ?!",
+        toast: false,
+        backdrop: false,
 
-//         position: "top",
-//         showConfirmButton: false,
-//         timer: 5000,
-//         timerProgressBar: true,
+        position: "top",
+        showConfirmButton: false,
+        timer: 6000,
+        timerProgressBar: true,
 
-//         footer: '<a href="#contact" style="color: #FFF; background-color: #1f242d; border-radius:10%; padding: 1rem;">Me contacter !</a>'
+        footer: '<a href="#contact" style="color: #FFF; background-color: #1f242d; border-radius:10%; padding: 1rem;">Contact moi !</a>'
         
-//     });
-// }
+    });
+}
 
