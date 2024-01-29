@@ -114,7 +114,7 @@ En résumé, un portfolio en ligne est un outil polyvalent qui peut vous aider �
 - [x] Ajouter un README & Github Pages
 - [x] Formulaire de contact
 - [x] Ajouter un bouton "back to top"
-- [ ] Errors pages
+- [x] Errors pages 404 & 500
 
 See the [open issues](https://github.com/beloow/ryanqueva.fr/issues) for a full list of proposed features (and known issues).
 

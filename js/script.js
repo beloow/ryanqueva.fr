@@ -54,7 +54,7 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 /*==================== typed js ====================*/
 const typed = new Typed('.multiple-text', {
-    strings: ['Web Developer', 'Student', 'Network Technician'],
+    strings: ['Web Developer', 'Community Manager', 'Network Technician'],
     typeSpeed: 100,
     backSpeed: 90,
     backDelay: 450,
@@ -172,22 +172,22 @@ form.addEventListener("submit", (e) => {
 
 /*==================== onload dev ====================*/
 
-window.onload = () => {
+// window.onload = () => {
 
-    Swal.fire({
+//     Swal.fire({
 
-        icon: "info",
-        title: "Besoin d'un site web ?!",
-        toast: false,
-        backdrop: false,
+//         icon: "info",
+//         title: "Besoin d'un site web ?!",
+//         toast: false,
+//         backdrop: false,
 
-        position: "top",
-        showConfirmButton: false,
-        timer: 6000,
-        timerProgressBar: true,
+//         position: "top",
+//         showConfirmButton: false,
+//         timer: 6000,
+//         timerProgressBar: true,
 
-        footer: '<a href="#contact" style="color: #FFF; background-color: #1f242d; border-radius:10%; padding: 1rem;">Contact moi !</a>'
+//         footer: '<a href="#contact" style="color: #FFF; background-color: #1f242d; border-radius:10%; padding: 1rem;">Contact moi !</a>'
         
-    });
-}
+//     });
+// }
 
