@@ -169,25 +169,3 @@ form.addEventListener("submit", (e) => {
 
     }
 });
-
-/*==================== onload dev ====================*/
-
-// window.onload = () => {
-
-//     Swal.fire({
-
-//         icon: "info",
-//         title: "Besoin d'un site web ?!",
-//         toast: false,
-//         backdrop: false,
-
-//         position: "top",
-//         showConfirmButton: false,
-//         timer: 6000,
-//         timerProgressBar: true,
-
-//         footer: '<a href="#contact" style="color: #FFF; background-color: #1f242d; border-radius:10%; padding: 1rem;">Contact moi !</a>'
-        
-//     });
-// }
-
