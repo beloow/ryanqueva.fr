@@ -1,3 +1,5 @@
+"use strict";
+
 /*==================== toggle icon navbar ====================*/
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
@@ -169,3 +171,32 @@ form.addEventListener("submit", (e) => {
 
     }
 });
+
+window.onload = () => {
+    Swal.fire({
+        title: "Promotions en cour",
+        text: "Plus que 30 jours pour profiter de -5% ! ",
+        confirmButtonText: "Decouvrir !",
+        timer: 5000,
+        timerProgressBar: true,
+        background: '#1f242d',
+        color: '#FFF',
+        icon: "info",
+        iconColor: '#A0E5AF',
+        confirmButtonColor: '#A0E5AF',
+        showClass: {
+          popup: `
+            animate__animated
+            animate__fadeInUp
+            animate__faster
+          `
+        },
+        hideClass: {
+          popup: `
+            animate__animated
+            animate__fadeOutDown
+            animate__faster
+          `
+        }
+      });
+}
