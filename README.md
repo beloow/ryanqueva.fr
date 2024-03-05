@@ -74,7 +74,7 @@
 ## About The Project
 
 
-👨‍🎓 Developper Web Freelance 🚀Création de vitrine digitale & marketing en ligne 🖥️Ouvert aux opportunités 🙌 
+👨‍🎓Ryan Queva Developper Web Freelance 🚀 Création de vitrine digitale & marketing en ligne 🖥️ Projet portfolio 🙌 
 
 Mais Ryan, un portfolio sa sert a quoi ? 
 * Présentation professionnelle : Un portfolio en ligne me permet de présenter mes compétences, mon travail et mon expérience de manière professionnelle. Cela peut être particulièrement utile pour la recherche d'un emploi ou pour des opportunités.
@@ -115,6 +115,7 @@ En résumé, un portfolio en ligne est un outil polyvalent qui peut vous aider �
 - [x] Formulaire de contact
 - [x] Ajouter un bouton "back to top"
 - [x] Errors pages 404 & 500
+- [ ] Clean architecture
 
 See the [open issues](https://github.com/beloow/ryanqueva.fr/issues) for a full list of proposed features (and known issues).
 
