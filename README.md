@@ -77,9 +77,9 @@
 👨‍🎓 Developper Web Freelance 🚀Création de vitrine digitale & marketing en ligne 🖥️Ouvert aux opportunités 🙌 
 
 Mais Ryan, un portfolio sa sert a quoi ? 
-* 1. Présentation professionnelle : Un portfolio en ligne me permet de présenter mes compétences, mon travail et mon expérience de manière professionnelle. Cela peut être particulièrement utile pour la recherche d'un emploi ou pour des opportunités.
-* 2. Visibilité : Un portfolio en ligne donne une présence sur le web, ce qui peut  rendre plus visible pour les employeurs potentiels, les clients, les collaborateurs, ou même les personnes qui partagent un intérêt pour votre travail.
-* 3. Éducation et développement personnel : La création d'un portfolio en ligne me pousse à réfléchir sur mon parcours professionnel, à identifier mes forces et faiblesses, et à définir mes objectifs futurs :smile:
+* Présentation professionnelle : Un portfolio en ligne me permet de présenter mes compétences, mon travail et mon expérience de manière professionnelle. Cela peut être particulièrement utile pour la recherche d'un emploi ou pour des opportunités.
+* Visibilité : Un portfolio en ligne donne une présence sur le web, ce qui peut  rendre plus visible pour les employeurs potentiels, les clients, les collaborateurs, ou même les personnes qui partagent un intérêt pour votre travail.
+* Éducation et développement personnel : La création d'un portfolio en ligne me pousse à réfléchir sur mon parcours professionnel, à identifier mes forces et faiblesses, et à définir mes objectifs futurs :smile:
 
 En résumé, un portfolio en ligne est un outil polyvalent qui peut vous aider à promouvoir votre travail, à développer votre carrière, à établir votre présence en ligne et à connecter avec un public plus large. Il est devenu essentiel dans de nombreux domaines professionnels pour montrer vos réalisations et compétences de manière efficace et professionnelle.
 
