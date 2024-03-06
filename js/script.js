@@ -9,7 +9,6 @@ menuIcon.onclick = () => {
     navbar.classList.toggle('active');
 };
 
-
 /*==================== scroll sections active link ====================*/
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
@@ -40,7 +39,6 @@ window.onscroll = () => {
     navbar.classList.remove('active');
 };
 
-
 /*==================== scroll reveal ====================*/
 ScrollReveal({
     // reset: true,
@@ -56,7 +54,7 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 /*==================== typed js ====================*/
 const typed = new Typed('.multiple-text', {
-    strings: ['Web Developer', 'Community Manager', 'Network Technician'],
+    strings: ['Web Developer', 'Front-end Developer', 'Network Technician'],
     typeSpeed: 100,
     backSpeed: 90,
     backDelay: 450,
@@ -70,6 +68,27 @@ const email = document.getElementById("email");
 const phone = document.getElementById("phone");
 const subject = document.getElementById("subject");
 const mess = document.getElementById("message");
+
+form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    checkInputs();
+
+    if (
+            !fullName.classList.contains("error") &&
+            !email.classList.contains("error") &&
+            !phone.classList.contains("error") &&
+            !subject.classList.contains("error") &&
+            !mess.classList.contains("error")
+        ){
+        sendEmail();
+        form.reset();
+        return false;
+    }
+});
+
+window.onload = () => {
+    PopUpPromo();
+}
 
 function sendEmail() {
     const bodyMessage = `
@@ -152,51 +171,39 @@ function errorBox() {
     });
 }
 
-form.addEventListener("submit", (e) => {
-    e.preventDefault();
-    checkInputs();
-
-    if (
-            !fullName.classList.contains("error") &&
-            !email.classList.contains("error") &&
-            !phone.classList.contains("error") &&
-            !subject.classList.contains("error") &&
-            !mess.classList.contains("error")
-        ){
-
-        sendEmail();
-
-        form.reset();
-        return false;
-
-    }
-});
-
-window.onload = () => {
+function PopUpPromo() {
     Swal.fire({
-        title: "Promotions en cour",
-        text: "Plus que 30 jours pour profiter de -5% ! ",
+        titleText: "Offre limitée !",
         confirmButtonText: "Decouvrir !",
-        timer: 5000,
+        html: "<p class=\"popup-text\">Profitez de -5% jusqu'au 30 avril sur l'ensemble de mes solutions digitales !</p>",
+        timer: 10000,
         timerProgressBar: true,
         background: '#1f242d',
         color: '#FFF',
         icon: "info",
         iconColor: '#A0E5AF',
-        confirmButtonColor: '#A0E5AF',
+        width: '600',
+        padding: '50px',
         showClass: {
           popup: `
             animate__animated
-            animate__fadeInUp
+            animate__fadeInLeft
             animate__faster
           `
         },
         hideClass: {
           popup: `
             animate__animated
-            animate__fadeOutDown
+            animate__fadeOutRight
             animate__faster
           `
-        }
+        },
+        customClass: {
+            title: 'popup-title',
+            timerProgressBar: 'popup-progressbar',
+            htmlContainer: 'popup-text',
+            confirmButton: 'popup-confirmbutton',
+            popup: 'popup'
+          }
       });
 }
