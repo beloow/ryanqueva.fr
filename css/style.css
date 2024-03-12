@@ -379,6 +379,49 @@ span {
     margin-top: 2rem;
     cursor: pointer;
 }
+/* politique de confidentialité */
+.pdc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20rem 5rem 20rem;
+}
+
+.pdc__section__div h2 {
+    text-align: left;
+    line-height: 1.2;
+}
+
+.pdc__section__div h3 {
+    font-size: 2.6rem;
+}
+
+.pdc__section__div p {
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
+
+/* Conditions générales de ventes */
+.cgv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20rem 5rem 20rem;
+}
+
+.cgv__section__div h2 {
+    text-align: left;
+    line-height: 1.2;
+}
+
+.cgv__section__div h3 {
+    font-size: 2.6rem;
+}
+
+.cgv__section__div p {
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
 
 .error {
     border: .1rem solid var(--error-color);
@@ -395,6 +438,17 @@ span {
 
 .footer-text p {
     font-size: 1.6rem;
+}
+
+.footer-text a {
+    font-size: 1.6rem;
+    color: var(--main-color);
+    transition: 0.5s;
+}
+
+.footer-text a:hover {
+    font-size: 1.6rem;
+    color: rgba(160, 229, 175, 0.5);
 }
 
 .footer-iconTop a {
@@ -422,6 +476,14 @@ span {
     html {
         font-size: 55%;
     }
+
+    .cgv {
+        margin: 0 20rem 5rem 20rem;
+    }
+
+    .pdc {
+        margin: 0 20rem 5rem 20rem;
+    }
 }
 
 @media (max-width: 991px) {
@@ -448,6 +510,14 @@ span {
     .footer {
         padding: 2rem 3%;
     }
+
+    .cgv {
+        margin: 0 20rem 5rem 20rem;
+    }
+
+    .pdc {
+        margin: 0 20rem 5rem 20rem;
+    }
 }
 
 @media (max-width: 898px) {
@@ -457,6 +527,14 @@ span {
 }
 
 @media (max-width: 768px) {
+    .cgv {
+        margin: 0 7rem 5rem 7rem;
+    }
+
+    .pdc {
+        margin: 0 7rem 5rem 7rem;
+    }
+    
     #menu-icon {
         display: block;
     }
@@ -527,6 +605,14 @@ span {
     .portfolio-container {
         grid-template-columns: 1fr;
     }
+
+    .cgv {
+        margin: 0 5rem 5rem 5rem;
+    }
+
+    .pdc {
+        margin: 0 5rem 5rem 5rem;
+    }
 }
 
 @media (max-width: 450px) {
@@ -536,6 +622,13 @@ span {
 
     .contact form .input-box input {
         width: 100%;
+    }
+    .cgv {
+        margin: 0 1rem 5rem 1rem;
+    }
+
+    .pdc {
+        margin: 0 1rem 5rem 1rem;
     }
 }
 
