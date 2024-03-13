@@ -422,6 +422,27 @@ span {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
+/* Conditions générales de ventes */
+.ml {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20rem 5rem 20rem;
+}
+
+.ml__section__div h2 {
+    text-align: left;
+    line-height: 1.2;
+}
+
+.ml__section__div h3 {
+    font-size: 2.6rem;
+}
+
+.ml__section__div p {
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
 
 .error {
     border: .1rem solid var(--error-color);
