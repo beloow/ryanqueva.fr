@@ -54,7 +54,7 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 /*==================== typed js ====================*/
 const typed = new Typed('.multiple-text', {
-    strings: ['Web Developer', 'Front-end Developer', 'Network Technician', 'Freelance'],
+    strings: ['Back-end Developer', 'Front-end Developer', 'Network Technician', 'Freelance'],
     typeSpeed: 100,
     backSpeed: 90,
     backDelay: 500,
@@ -85,10 +85,6 @@ form.addEventListener("submit", (e) => {
         return false;
     }
 });
-
-window.onload = () => {
-    PopUpPromo();
-}
 
 function sendEmail() {
     const bodyMessage = `
