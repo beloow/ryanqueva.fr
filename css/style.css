@@ -11,10 +11,21 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* black mod */
+/* 
+--bg-color: #1f242d;
+--second-bg-color: #323946;
+--text-color: #FFF;
+--main-color: #A0E5AF;
+--error-color: #d93025; 
+*/
+
 :root {
-    --bg-color: #1f242d;
-    --second-bg-color: #323946;
-    --text-color: #FFF;
+
+    --bg-color: #FFF;
+    --second-bg-color: #f3fdf5;
+    --text-color: #1f242d;
+    --second-text-color: #FFF;
     --main-color: #A0E5AF;
     --error-color: #d93025;
 }
@@ -54,6 +65,10 @@ section {
 
 .header.sticky {
     border-bottom: .1rem solid rgba(0, 0, 0, .2);
+}
+
+.text-link {
+    color: var(--main-color);
 }
 
 .logo {
@@ -317,11 +332,13 @@ span {
 
 .portfolio-layer h4 {
     font-size: 3rem;
+    color: var(--second-text-color);
 }
 
 .portfolio-layer p {
     font-size: 1.6rem;
     margin: .3rem 0 1rem;
+    color: var(--second-text-color);
 }
 
 .portfolio-layer a {
@@ -330,13 +347,13 @@ span {
     align-items: center;
     width: 5rem;
     height: 5rem;
-    background: var(--text-color);
+    background: var(--second-text-color);
     border-radius: 50%;
 }
 
 .portfolio-layer a i {
     font-size: 2rem;
-    color: var(--second-bg-color);
+    color: var(--main-color);
 }
 
 .contact h2 {
@@ -454,7 +471,7 @@ span {
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
-    background: var(--second-bg-color);
+    background: var(--bg-color);
 }
 
 .footer-text p {
@@ -488,7 +505,7 @@ span {
 
 .footer-iconTop a i {
     font-size: 2.4rem;
-    color: var(--second-bg-color);
+    color: var(--second-text-color);
 }
 
 /* BREAKPOINTS */

@@ -102,11 +102,13 @@ function sendEmail() {
     `;
 
     Email.send({
-        SecureToken: "01714b00-e16d-4334-ba5f-34a71812d021",
+
+        SecureToken: "0f9974e0-e90f-4cd1-a454-aab9a7ad1233",
         To: 'contact@ryanqueva.fr',
         From: "contact@ryanqueva.fr",
         Subject: subject.value,
         Body: bodyMessage
+
     }).then(
         message => {
             if (message == "OK") {
