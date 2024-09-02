@@ -54,7 +54,7 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 /*==================== typed js ====================*/
 const typed = new Typed('.multiple-text', {
-    strings: ['Développeur Frontend', 'Technicien réseau', 'Freelance'],
+    strings: ['Freelance', 'Développeur Frontend', 'Technicien réseau'],
     typeSpeed: 100,
     backSpeed: 90,
     backDelay: 500,
@@ -169,39 +169,39 @@ const typed = new Typed('.multiple-text', {
 //     });
 // }
 
-function PopUpPromo() {
-    Swal.fire({
-        titleText: "Offre limitée !",
-        confirmButtonText: "Decouvrir !",
-        html: "<p class=\"popup-text\">Profitez de -5% jusqu'au 30 avril sur l'ensemble de mes solutions digitales !</p>",
-        timer: 10000,
-        timerProgressBar: true,
-        background: '#1f242d',
-        color: '#FFF',
-        icon: "info",
-        iconColor: '#A0E5AF',
-        width: '600',
-        padding: '50px',
-        showClass: {
-          popup: `
-            animate__animated
-            animate__fadeInLeft
-            animate__faster
-          `
-        },
-        hideClass: {
-          popup: `
-            animate__animated
-            animate__fadeOutRight
-            animate__faster
-          `
-        },
-        customClass: {
-            title: 'popup-title',
-            timerProgressBar: 'popup-progressbar',
-            htmlContainer: 'popup-text',
-            confirmButton: 'popup-confirmbutton',
-            popup: 'popup'
-          }
-      });
-}
+// function PopUpPromo() {
+//     Swal.fire({
+//         titleText: "Offre limitée !",
+//         confirmButtonText: "Decouvrir !",
+//         html: "<p class=\"popup-text\">Profitez de -5% jusqu'au 30 avril sur l'ensemble de mes solutions digitales !</p>",
+//         timer: 10000,
+//         timerProgressBar: true,
+//         background: '#1f242d',
+//         color: '#FFF',
+//         icon: "info",
+//         iconColor: '#A0E5AF',
+//         width: '600',
+//         padding: '50px',
+//         showClass: {
+//           popup: `
+//             animate__animated
+//             animate__fadeInLeft
+//             animate__faster
+//           `
+//         },
+//         hideClass: {
+//           popup: `
+//             animate__animated
+//             animate__fadeOutRight
+//             animate__faster
+//           `
+//         },
+//         customClass: {
+//             title: 'popup-title',
+//             timerProgressBar: 'popup-progressbar',
+//             htmlContainer: 'popup-text',
+//             confirmButton: 'popup-confirmbutton',
+//             popup: 'popup'
+//           }
+//       });
+// }

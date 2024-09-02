@@ -107,6 +107,8 @@ En résumé, un portfolio en ligne est un outil polyvalent qui peut vous aider �
 <!-- ROADMAP -->
 ## Roadmap
 
+### Part 1:
+
 - [x] Renouveler le style global
 - [x] Description personnel
 - [x] Presenter quelques projets
@@ -116,7 +118,15 @@ En résumé, un portfolio en ligne est un outil polyvalent qui peut vous aider �
 - [x] Ajouter un bouton "back to top"
 - [x] Errors pages 404 & 500
 
-- [ ] Bouton thème clair / Sombre
+
+### Part 2:
+
+- [ ] Nouveaux services.
+- [ ] Bouton thème clair / Sombre.
+- [ ] Animation soulignage au survol du menu nav.
+- [ ] Réorganisation, mettres les projets avant les services.
+- [ ] Ajouter les Avis Googles au site web.
+
 
 See the [open issues](https://github.com/beloow/ryanqueva.fr/issues) for a full list of proposed features (and known issues).
 
