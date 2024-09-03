@@ -47,7 +47,7 @@ ScrollReveal({
     delay: 200
 });
 
-ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+ScrollReveal().reveal('.home-content, .heading, .subtitle', { origin: 'top' });
 ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form', { origin: 'bottom' });
 ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
@@ -169,39 +169,39 @@ const typed = new Typed('.multiple-text', {
 //     });
 // }
 
-// function PopUpPromo() {
-//     Swal.fire({
-//         titleText: "Offre limitée !",
-//         confirmButtonText: "Decouvrir !",
-//         html: "<p class=\"popup-text\">Profitez de -5% jusqu'au 30 avril sur l'ensemble de mes solutions digitales !</p>",
-//         timer: 10000,
-//         timerProgressBar: true,
-//         background: '#1f242d',
-//         color: '#FFF',
-//         icon: "info",
-//         iconColor: '#A0E5AF',
-//         width: '600',
-//         padding: '50px',
-//         showClass: {
-//           popup: `
-//             animate__animated
-//             animate__fadeInLeft
-//             animate__faster
-//           `
-//         },
-//         hideClass: {
-//           popup: `
-//             animate__animated
-//             animate__fadeOutRight
-//             animate__faster
-//           `
-//         },
-//         customClass: {
-//             title: 'popup-title',
-//             timerProgressBar: 'popup-progressbar',
-//             htmlContainer: 'popup-text',
-//             confirmButton: 'popup-confirmbutton',
-//             popup: 'popup'
-//           }
-//       });
-// }
+function PopUpPromo() {
+    Swal.fire({
+        titleText: "Offre limitée !",
+        confirmButtonText: "Decouvrir !",
+        html: "<p class=\"popup-text\">Profitez de -5% jusqu'au 30 avril sur l'ensemble de mes solutions digitales !</p>",
+        timer: 10000,
+        timerProgressBar: true,
+        background: '#1f242d',
+        color: '#FFF',
+        icon: "info",
+        iconColor: '#A0E5AF',
+        width: '600',
+        padding: '50px',
+        showClass: {
+          popup: `
+            animate__animated
+            animate__fadeInLeft
+            animate__faster
+          `
+        },
+        hideClass: {
+          popup: `
+            animate__animated
+            animate__fadeOutRight
+            animate__faster
+          `
+        },
+        customClass: {
+            title: 'popup-title',
+            timerProgressBar: 'popup-progressbar',
+            htmlContainer: 'popup-text',
+            confirmButton: 'popup-confirmbutton',
+            popup: 'popup'
+          }
+      });
+}
