@@ -1,4 +1,3 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
@@ -8,23 +7,7 @@
 *** Thanks again! Now go create something AMAZING! :D
 -->
 
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-<!-- [![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url] -->
-
+[![LinkedIn][linkedin-shield]][linkedin-url] 
 
 
 <!-- PROJECT LOGO -->
@@ -37,7 +20,7 @@
   <h3 align="center">Ryanqueva.fr</h3>
 
   <p align="center">
-    My personnal website 
+    Mon site web personnel !
     <br />
     <a href="https://github.com/beloow/ryanqueva.fr/index.html"><strong>Explore the docs »</strong></a>
     <br />
@@ -89,18 +72,11 @@ En résumé, un portfolio en ligne est un outil polyvalent qui peut vous aider �
 
 ### Built With
 
-<!-- * [![HTML][Next.js]][Next-url]
-* [![CSS][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url] -->
 * ![HTML5][html5.com]
 * ![CSS3][css3.com]
 * ![JavaScript][javascript.com]
 * [![GitHub][github.com]][github-url]
 * [![Figma][figma.com]][figma-url]
-<!-- * [![Bootstrap][Bootstrap.com]][Bootstrap-url] -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -124,7 +100,7 @@ En résumé, un portfolio en ligne est un outil polyvalent qui peut vous aider �
 - [x] Nouveaux services.
 - [x] Réorganisation, mettres les projets avant les services.
 - [x] Bouton thème clair / Sombre.
-- [ ] Animation soulignage au survol du menu nav.
+- [x] Animation soulignage au survol du menu nav.
 - [ ] Nouvelle section "Ils me font confiance".
 - [ ] Nouvelle section avis google.
 

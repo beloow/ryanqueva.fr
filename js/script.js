@@ -22,9 +22,9 @@ window.onscroll = () => {
             navLinks.forEach(links => {
                 links.classList.remove('active');
                 document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
-            })
-        }
-    })
+            });
+        };
+    });
     /*==================== stiky navbar ====================*/
     let header = document.querySelector('header');
     header.classList.toggle('sticky', window.scrollY > 100);
@@ -45,7 +45,7 @@ ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 /*==================== typed js ====================*/
 const typed = new Typed('.multiple-text', {
-    strings: ['Freelance', 'Développeur Frontend', 'Technicien réseau'],
+    strings: ['Freelance', 'Développeur web', 'Technicien réseau'],
     typeSpeed: 100,
     backSpeed: 90,
     backDelay: 500,

@@ -83,13 +83,31 @@ section {
 ::-webkit-scrollbar {
     width: 3px;
     border-radius: 10%;
-  }
-  ::-webkit-scrollbar-track {
+}
+::-webkit-scrollbar-track {
     background-color: var(--bg-color);
-  }
-  ::-webkit-scrollbar-thumb {
+}
+::-webkit-scrollbar-thumb {
     background-color: var(--main-color);
-  }
+}
+.hover-underline{
+    position: relative;
+}
+.hover-underline::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-block: 1px solid var(--main-color);
+    transform: scaleX(0.2);
+    opacity: 0;
+    transition: var(--transition-2);
+}
+.hover-underline:is(:hover, :focus-visible)::after {
+    transform: scaleX(1);
+    opacity: 1;
+}
 /* === Day/Night Button === */
 .dayNightMode .switch {
     position: relative;
@@ -174,6 +192,14 @@ section {
     transition: all 0.5s ease;
     /* Default to Moon */
     border: 0.25rem solid #DEE2C6;
+}
+.dayNightMode .sun-moon:hover {
+    transform: scale(1.3);
+    transition: var(--transition-2);
+}
+.dayNightMode .switch input:checked ~ .sun-moon:hover{
+    transform: scale(1.3);
+    transition: var(--transition-2);
 }
 /* Transition to Sun */
 .dayNightMode .switch input:checked ~ .sun-moon {
@@ -574,23 +600,28 @@ span {color: var(--main-color);}
         width: 100%;
         padding: 1rem 3%;
         background: var(--bg-color);
-        border-top: .1rem solid rgba(0, 0, 0, .2);
-        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+        /* border-top: .1rem solid rgba(0, 0, 0, .2); */
+        box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, .2);
         display: none;
+        border-radius: 0 0 10% 10%;
     }
     .navbar.active {display: block;}
     .navbar a {
         display: block;
         font-size: 2rem;
         margin: 3rem 0;
+        text-align: center;
     }
-    .home {flex-direction: column;}
+    .home {
+        flex-direction: column;
+        text-align: center;
+    }
     .home-content h3 {font-size: 2.6rem;}
     .home-content h1 {font-size: 5rem;}
     .home-img img {
         width: 50vw;
         margin: 20vh;
-        margin-top: 4rem;
+        margin-top: 10rem;
     }
     .about {flex-direction: column-reverse;}
     .about-content {
@@ -632,7 +663,7 @@ span {color: var(--main-color);}
 @media (max-width: 365px) {
     .home-img img {
         width: 75vw;
-        margin: 15vh;
+        margin: 10vh;
     }
     .about-img img {width: 90vw;}
     .subtitle {
