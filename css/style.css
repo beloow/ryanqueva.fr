@@ -9,14 +9,6 @@
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
 }
-/* black mode */
-/* 
---bg-color: #1f242d;
---second-bg-color: #323946;
---text-color: #FFF;
---main-color: #A0E5AF;
---error-color: #d93025; 
-*/
 :root {
     /* colors */
     --bg-color: #FFF;
@@ -48,6 +40,13 @@
     /* FontWeight */
     --font-weight-600: 600;
 }
+[data-theme='dark']{
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #FFF;
+    --main-color: #A0E5AF;
+    --error-color: #d93025;
+}
 strong {
     font-weight: normal;
     font-style: normal;
@@ -74,6 +73,107 @@ section {
     font-size: var(--subtitle);
     margin: 2rem 30% 2rem 30%;
     border-bottom: 3px solid var(--main-color);
+}
+/* === Day/Night Button === */
+.dayNightMode .switch {
+    position: relative;
+    overflow: hidden;
+    width: 7.5rem;
+    height: 4rem;
+}
+.dayNightMode .switch input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    opacity: 0;
+}
+.dayNightMode .switch label {cursor: pointer;}
+.dayNightMode .background {
+    z-index: 1;
+    position: absolute;
+    width: 7.5rem;
+    height: 4rem;
+    border-radius: 2.5rem;
+    border: 0.25rem solid #202020;
+    background: linear-gradient(to right, #484848 0%,#202020 100%);
+    transition: all 0.3s;
+}
+.dayNightMode .stars1,
+.dayNightMode .stars2 {
+    position: absolute;
+    height: 0.4rem;
+    width: 0.4rem; 
+    background: #FFFFFF;
+    border-radius: 50%;
+    transition: 0.3s all ease;
+}
+.dayNightMode .stars1 {
+    top: 6px;
+    right: 23px;
+}
+.dayNightMode .stars2 {
+    top: 40px;
+    right: 48px;
+}
+.dayNightMode .stars1:after,
+.dayNightMode .stars1:before,
+.dayNightMode .stars2:after,
+.dayNightMode .stars2:before{
+    position: absolute;
+    content: "";
+    display: block;
+    height: 0.25rem;
+    width: 0.25rem;
+    background: #FFFFFF;
+    border-radius: 50%;
+    transition: 0.2s all ease;
+}
+.dayNightMode .stars1:after {
+    top: 8px;
+    right: 20px;
+}
+.dayNightMode .stars1:before {
+    top: 18px;
+    right: -12px;
+}
+.dayNightMode .stars2:after {
+    top: -8px;
+    right: -16px;
+}
+.dayNightMode .stars2:before {
+    top: 6px;
+    right: -26px;
+}
+.dayNightMode .sun-moon {
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    height: 3rem;
+    width: 3rem;
+    margin: 0.5rem;
+    background: #FFFDF2;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+    /* Default to Moon */
+    border: 0.25rem solid #DEE2C6;
+}
+/* Transition to Sun */
+.dayNightMode .switch input:checked ~ .sun-moon {
+    left: calc(100% - 4rem);
+    background: #F5EC59;
+    border-color: #E7C65C;
+    transform: rotate(-25deg);
+}
+.dayNightMode .switch input:checked ~ .background .stars1,
+.dayNightMode .switch input:checked ~ .background .stars2 {
+    opacity: 0;
+    transform: translateY(2rem);
+}
+.dayNightMode .switch input:checked ~ .background {
+    border: 0.25rem solid #78C1D5;
+    background: linear-gradient(to right, #78C1D5 0%, #BBE7F5 100%);
 }
 /* === Header ===*/
 .header {
