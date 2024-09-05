@@ -15,6 +15,10 @@
     --second-bg-color: #f3fdf5;
     --text-color: #1f242d;
     --second-text-color: #FFF;
+    --button-text-color: #FFF;
+    --second-button-text-color: #1f242d;
+    --button-background-color: #A0E5AF;
+    --second-button-background-color: #1f242d;
     --main-color: #A0E5AF;
     --error-color: #d93025;
     /* transition */
@@ -44,6 +48,8 @@
     --bg-color: #1f242d;
     --second-bg-color: #323946;
     --text-color: #FFF;
+    --button-text-color: #1f242d;
+    --second-button-text-color: #FFF;
     --main-color: #A0E5AF;
     --error-color: #d93025;
 }
@@ -74,6 +80,16 @@ section {
     margin: 2rem 30% 2rem 30%;
     border-bottom: 3px solid var(--main-color);
 }
+::-webkit-scrollbar {
+    width: 3px;
+    border-radius: 10%;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: var(--bg-color);
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--main-color);
+  }
 /* === Day/Night Button === */
 .dayNightMode .switch {
     position: relative;
@@ -283,11 +299,11 @@ span {color: var(--main-color);}
 .btn {
     display: inline-block;
     padding: 1rem 2.8rem;
-    background: var(--main-color);
+    background: var(--button-background-color);
     border-radius: 4rem;
     box-shadow: 0 0 1rem var(--main-color);
     font-size: var(--button);
-    color: var(--second-bg-color);
+    color: var(--button-text-color);
     letter-spacing: .1rem;
     font-weight: 600;
     transition: .5s ease;
@@ -514,7 +530,7 @@ span {color: var(--main-color);}
     justify-content: center;
     align-items: center;
     padding: .8rem;
-    background: var(--main-color);
+    background: var(--button-background-color);
     border-radius: .8rem;
     transition: .5s ease;
     box-shadow: 0 0 1rem var(--main-color);
@@ -525,7 +541,7 @@ span {color: var(--main-color);}
 }
 .footer-iconTop a i {
     font-size: 2.4rem;
-    color: var(--second-text-color);
+    color: var(--button-text-color);
 }
 /* === Breakpoint === */
 @media (max-width: 1200px) {
@@ -545,6 +561,7 @@ span {color: var(--main-color);}
 }
 @media (max-width: 898px) {
     .portfolio-box .portfolio-layer {transform: translateY(0);}
+    .portfolio-container {grid-template-columns: repeat(2, 1fr);}
 }
 @media (max-width: 768px) {
     .cgv {margin: 0 7rem 5rem 7rem;}
@@ -590,7 +607,6 @@ span {color: var(--main-color);}
     }
     .services h2 {margin-bottom: 3rem;}
     .portfolio h2 {margin-bottom: 3rem;}
-    .portfolio-container {grid-template-columns: repeat(2, 1fr);}
 }
 @media (max-width: 660px) {
     .footer {flex-direction: column-reverse;}

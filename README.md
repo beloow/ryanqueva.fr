@@ -125,6 +125,7 @@ En résumé, un portfolio en ligne est un outil polyvalent qui peut vous aider �
 - [x] Réorganisation, mettres les projets avant les services.
 - [x] Bouton thème clair / Sombre.
 - [ ] Animation soulignage au survol du menu nav.
+- [ ] Nouvelle section "Ils me font confiance".
 - [ ] Nouvelle section avis google.
 
 - [ ] Lancement de la V3.
