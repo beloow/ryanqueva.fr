@@ -53,6 +53,17 @@
     --main-color: #A0E5AF;
     --error-color: #d93025;
 }
+/* @media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #1f242d;
+        --second-bg-color: #323946;
+        --text-color: #FFF;
+        --button-text-color: #1f242d;
+        --second-button-text-color: #FFF;
+        --main-color: #A0E5AF;
+        --error-color: #d93025;
+    }
+} */
 strong {
     font-weight: normal;
     font-style: normal;
