@@ -403,6 +403,14 @@ span {color: var(--main-color);}
     font-size: var(--paragraph);
     margin: 1rem 0 3rem;
 }
+.services-box div p {
+    font-size: var(--paragraph);
+    margin: 1rem 0 1rem;
+}
+.services-box div {
+    padding-top: 3.5rem;
+    border-top: dotted var(--main-color) 2px;
+}
 .services .ecom {margin: 2rem 0 0 0;}
 /* === Portfolio === */
 .portfolio {background: var(--bg-color);}
