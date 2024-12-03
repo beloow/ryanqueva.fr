@@ -474,36 +474,6 @@ span {color: var(--main-color);}
     font-size: 2rem;
     color: var(--main-color);
 }
-
-/* === Contact === */
-.contact h2 {margin-bottom: 3rem;}
-.contact form {
-    max-width: 70rem;
-    margin: 1rem auto;
-    text-align: center;
-    margin-bottom: 3rem;
-}
-.contact form .input-box {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.contact form .input-box input,
-.contact form textarea {
-    width: 100%;
-    padding: 1.5rem;
-    font-size: var(--paragraph);
-    color: var(--text-color);
-    background: var(--second-bg-color);
-    border-radius: .8rem;
-    margin: .7rem 0;
-}
-.contact form .input-box input { width: 49%;}
-.contact form textarea { resize: none; }
-.contact form .btn {
-    margin-top: 2rem;
-    cursor: pointer;
-}
 /* politique de confidentialité */
 .pdc {
     display: flex;
@@ -599,7 +569,6 @@ span {color: var(--main-color);}
     section {padding: 10rem 3% 2rem;}
     .services {padding-bottom: 7rem;}
     .portfolio {padding-bottom: 7rem;}
-    .contact {min-height: auto;}
     .footer {padding: 2rem 3%;}
     .cgv {margin: 0 20rem 5rem 20rem;}
     .pdc {margin: 0 20rem 5rem 20rem;}
@@ -672,7 +641,6 @@ span {color: var(--main-color);}
 }
 @media (max-width: 450px) {
     html {font-size: 50%;}
-    .contact form .input-box input {width: 100%;}
     .cgv {margin: 0 1rem 5rem 1rem;}
     .pdc {margin: 0 1rem 5rem 1rem;}
     .subtitle {
