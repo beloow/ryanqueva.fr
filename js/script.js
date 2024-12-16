@@ -52,15 +52,15 @@ const typed = new Typed('.multiple-text', {
     loop: true
 });
 /*==================== Day/night button ====================*/
-const toggle = document.getElementById('toggle');
+// const toggle = document.getElementById('toggle');
 
-toggle.addEventListener('change', () => {
-  if (toggle.checked === true) {
-    document.documentElement.removeAttribute('data-theme');
-  } else {
-    document.documentElement.setAttribute('data-theme', 'dark');
-  }
-});
+// toggle.addEventListener('change', () => {
+//   if (toggle.checked === true) {
+//     document.documentElement.removeAttribute('data-theme');
+//   } else {
+//     document.documentElement.setAttribute('data-theme', 'dark');
+//   }
+// });
 /*==================== popup ====================*/
 // function PopUpPromo() {
 //     Swal.fire({
