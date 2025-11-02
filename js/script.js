@@ -45,10 +45,10 @@ ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 /*==================== typed js ====================*/
 const typed = new Typed('.multiple-text', {
-    strings: ['Technicien réseau', 'Technicien support', 'Développeur web'],
+    strings: ['Technicien réseau', 'Technicien support'],
     typeSpeed: 100,
     backSpeed: 90,
-    backDelay: 500,
+    backDelay: 2000,
     loop: true
 });
 /*==================== Day/night button ====================*/
