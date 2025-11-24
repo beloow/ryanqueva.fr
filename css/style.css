@@ -11,15 +11,15 @@
 }
 :root {
     /* colors */
-    --bg-color: black;
-    --second-bg-color: #08090b;
+    --bg-color: #002147;
+    --second-bg-color: #002e62;
     --text-color: #FFF;
     --second-text-color: #FFF;
     --button-text-color: #FFF;
     --second-button-text-color: #1f242d;
-    --button-background-color: #A0E5AF;
+    --button-background-color: #d2b48c;
     --second-button-background-color: #1f242d;
-    --main-color: #A0E5AF;
+    --main-color: #d2b48c;
     --error-color: #d93025;
     /* transition */
     --transition-1: 250ms ease;
@@ -293,8 +293,70 @@ span {color: var(--main-color);}
     padding-top: 3.5rem;
     border-top: dotted var(--main-color) 2px;
 }
+/* === Certif === */
+.certif {background: var(--bg-color);}
+.certif h2 {margin-bottom: 4rem;}
+.certif-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+.certif-container .certif-box {
+    position: relative;
+    border-radius: 2rem;
+    /* box-shadow: 0 0 1rem var(--main-color); */
+    overflow: hidden;
+    display: flex;
+}
+.certif-box img {
+    width: 100%;
+    transition: .5s ease;
+}
+.certif-box:hover img {transform: scale(1.1);}
+.certif-box .certif-layer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, .6), var(--main-color));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+    transform: translateY(100%);
+    transition: .5s ease;
+}
+.certif-box:hover .certif-layer {
+    transform: translateY(0);
+}
+.certif-layer h4 {
+    font-size: 3rem;
+    color: var(--second-text-color);
+}
+.certif-layer p {
+    font-size: var(--paragraph);
+    margin: .3rem 0 1rem;
+    color: var(--second-text-color);
+}
+.certif-layer a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background: var(--second-text-color);
+    border-radius: 50%;
+}
+.certif-layer a i {
+    font-size: 2rem;
+    color: var(--main-color);
+}
 /* === Portfolio === */
-.portfolio {background: var(--bg-color);}
+.portfolio {background: var(--second-bg-color);}
 .portfolio h2 {margin-bottom: 4rem;}
 .portfolio-container {
     display: grid;
@@ -450,6 +512,7 @@ span {color: var(--main-color);}
     section {padding: 10rem 3% 2rem;}
     .services {padding-bottom: 7rem;}
     .portfolio {padding-bottom: 7rem;}
+    .certif {padding-bottom: 7rem;}
     .footer {padding: 2rem 3%;}
     .cgv {margin: 0 20rem 5rem 20rem;}
     .pdc {margin: 0 20rem 5rem 20rem;}
@@ -457,6 +520,9 @@ span {color: var(--main-color);}
 @media (max-width: 898px) {
     .portfolio-box .portfolio-layer {transform: translateY(0);}
     .portfolio-container {grid-template-columns: repeat(2, 1fr);}
+
+    .certif-box .certif-layer {transform: translateY(0);}
+    .certif-container {grid-template-columns: repeat(2, 1fr);}
 }
 @media (max-width: 768px) {
     .cgv {margin: 0 7rem 5rem 7rem;}
@@ -507,6 +573,7 @@ span {color: var(--main-color);}
     }
     .services h2 {margin-bottom: 3rem;}
     .portfolio h2 {margin-bottom: 3rem;}
+    .certif h2 {margin-bottom: 3rem;}
 }
 @media (max-width: 660px) {
     .footer {flex-direction: column-reverse;}
@@ -517,6 +584,7 @@ span {color: var(--main-color);}
 }
 @media (max-width: 617px) {
     .portfolio-container {grid-template-columns: 1fr;}
+    .certif-container {grid-template-columns: 1fr;}
     .cgv {margin: 0 5rem 5rem 5rem;}
     .pdc {margin: 0 5rem 5rem 5rem;}
 }
